@@ -1,26 +1,5 @@
 import * as actionTypes from './actionTypes';
-import data from '../../data/authors.json';
-
-export const addToFavorites = ( name ) => {
-    return {
-        type: actionTypes.ADD_TO_FAVORITES,
-        bookName: name
-    };
-};
-
-export const removeFromFavorites = ( name ) => {
-    return {
-        type: actionTypes.REMOVE_FROM_FAVORITES,
-        bookName: name
-    };
-};
-
-export const setGenre = ( name ) => {
-    return {
-        type: actionTypes.SET_GENRE,
-        activeGenre: name
-    };
-};
+import data from '../../data/data.json';
 
 export const setBooks = ( array ) => {
     return {
@@ -37,7 +16,7 @@ export const fetchBooksFailed = () => {
 
 
 
-export const initBooksList = () => {
+export const initFiles = () => {
     return dispatch => {
        dispatch(setBooks(data))
     }

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import logo from './logo.svg';
-import './App.css';
 import Layout from './components/Layout';
 import Menu from './components/Menu';
 
@@ -11,11 +9,12 @@ import Sharing from './components/Sharing';
 import Links from './components/Links';
 import Events from './components/Events';
 import GetStarted from './components/GetStarted';
-import Home from './components/Home';
+import Home from './containers/Home';
+import Logo from './components/Logo';
 
 
-const App = () => <Layout className="App">
-  <img src={logo} className="App-logo" alt="logo" />
+const App = () => <Layout>
+  <Logo />
   <Menu />
   <Switch>
     <Route path="/files" component={Files} />
