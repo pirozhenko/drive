@@ -1,129 +1,129 @@
 [
     {
-        "fileName": "hi",
+        "name": "hi",
         "urlImg": "https://picsum.photos/id/602/300/300?grayscale",
-        "fileSize": "5 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 372 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "ocean",
+        "name": "ocean",
         "urlImg": "https://picsum.photos/id/603/300/300?grayscale",
-        "fileSize": "5 172 bytes",
-        "lastModified": "26.10.2018"
+        "size": "5 172 bytes",
+        "modified": "26.10.2018"
     },
     {
-        "fileName": "shoose",
+        "name": "shoose",
         "urlImg": "https://picsum.photos/id/604/300/300?grayscale",
-        "fileSize": "4 372 bytes",
-        "lastModified": "27.10.2018"
+        "size": "4 372 bytes",
+        "modified": "27.10.2018"
     },
     {
-        "fileName": "car",
+        "name": "car",
         "urlImg": "https://picsum.photos/id/605/300/300?grayscale",
-        "fileSize": "5 382 bytes",
-        "lastModified": "28.10.2018"
+        "size": "5 382 bytes",
+        "modified": "28.10.2018"
     },
     {
-        "fileName": "beech",
+        "name": "beech",
         "urlImg": "https://picsum.photos/id/606/300/300?grayscale",
-        "fileSize": "5 392 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 392 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "fisher",
+        "name": "fisher",
         "urlImg": "https://picsum.photos/id/607/300/300?grayscale",
-        "fileSize": "7 372 bytes",
-        "lastModified": "24.10.2018"
+        "size": "7 372 bytes",
+        "modified": "24.10.2018"
     },
     {
-        "fileName": "wave",
+        "name": "wave",
         "urlImg": "https://picsum.photos/id/608/300/300?grayscale",
-        "fileSize": "5 172 bytes",
-        "lastModified": "23.10.2018"
+        "size": "5 172 bytes",
+        "modified": "23.10.2018"
     },
     {
-        "fileName": "stones",
+        "name": "stones",
         "urlImg": "https://picsum.photos/id/609/300/300?grayscale",
-        "fileSize": "3 372 bytes",
-        "lastModified": "20.10.2018"
+        "size": "3 372 bytes",
+        "modified": "20.10.2018"
     },
     {
-        "fileName": "sand",
+        "name": "sand",
         "urlImg": "https://picsum.photos/id/610/300/300?grayscale",
-        "fileSize": "8 372 bytes",
-        "lastModified": "21.10.2018"
+        "size": "8 372 bytes",
+        "modified": "21.10.2018"
     },
     {
-        "fileName": "gulls",
+        "name": "gulls",
         "urlImg": "https://picsum.photos/id/611/300/300?grayscale",
-        "fileSize": "5 300 bytes",
-        "lastModified": "30.10.2018"
+        "size": "5 300 bytes",
+        "modified": "30.10.2018"
     },
     {
-        "fileName": "rocks",
+        "name": "rocks",
         "urlImg": "https://picsum.photos/id/612/300/300?grayscale",
-        "fileSize": "6 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "6 372 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "bridge",
+        "name": "bridge",
         "urlImg": "https://picsum.photos/id/613/300/300?grayscale",
-        "fileSize": "3 200 bytes",
-        "lastModified": "20.10.2018"
+        "size": "3 200 bytes",
+        "modified": "20.10.2018"
     },
     {
-        "fileName": "gulf",
+        "name": "gulf",
         "urlImg": "https://picsum.photos/id/614/300/300?grayscale",
-        "fileSize": "5 375 bytes",
-        "lastModified": "29.10.2018"
+        "size": "5 375 bytes",
+        "modified": "29.10.2018"
     },
     {
-        "fileName": "water",
+        "name": "water",
         "urlImg": "https://picsum.photos/id/615/300/300?grayscale",
-        "fileSize": "5 800 bytes",
-        "lastModified": "20.10.2018"
+        "size": "5 800 bytes",
+        "modified": "20.10.2018"
     },
     {
-        "fileName": "wall",
+        "name": "wall",
         "urlImg": "https://picsum.photos/id/616/300/300?grayscale",
-        "fileSize": "4 333 bytes",
-        "lastModified": "15.10.2018"
+        "size": "4 333 bytes",
+        "modified": "15.10.2018"
     },
     {
-        "fileName": "ship",
+        "name": "ship",
         "urlImg": "https://picsum.photos/id/617/300/300?grayscale",
-        "fileSize": "5 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 372 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "decor",
+        "name": "decor",
         "urlImg": "https://picsum.photos/id/618/300/300?grayscale",
-        "fileSize": "5 366 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 366 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "alarm",
+        "name": "alarm",
         "urlImg": "https://picsum.photos/id/619/300/300?grayscale",
-        "fileSize": "6 666 bytes",
-        "lastModified": "15.10.2018"
+        "size": "6 666 bytes",
+        "modified": "15.10.2018"
     },
     {
-        "fileName": "bicycle",
+        "name": "bicycle",
         "urlImg": "https://picsum.photos/id/620/300/300?grayscale",
-        "fileSize": "5 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 372 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "under brigde",
+        "name": "under brigde",
         "urlImg": "https://picsum.photos/id/621/300/300?grayscale",
-        "fileSize": "5 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 372 bytes",
+        "modified": "25.10.2018"
     },
     {
-        "fileName": "town",
+        "name": "town",
         "urlImg": "https://picsum.photos/id/622/300/300?grayscale",
-        "fileSize": "5 372 bytes",
-        "lastModified": "25.10.2018"
+        "size": "5 372 bytes",
+        "modified": "25.10.2018"
     }
 
 ]

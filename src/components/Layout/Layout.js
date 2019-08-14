@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './Layout.scss';
+import './layout.scss';
 
-const layout = (props) => <div className={classes.layout}>
+const layout = (props) => <div className="layout">
     {props.children}
 </div>
 

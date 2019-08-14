@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Home from '../../components/Home';
+import HomePage from '../../components/HomePage';
 import * as actions from '../../store/actions/index';
 
-class Books extends Component {
+class Common extends Component {
 
     componentDidMount () {
         this.props.onInitFiles();
     }
 
     render () {
-        console.log(this.props);
         return (
-            <Home {...this.props}/>
+            <HomePage {...this.props}/>
         );
     }
 }
 
 const mapStateToProps = state => {
     return {
-        books: state.books.booksArray,
+        files: state.drive,
     };
 }
 
@@ -30,4 +29,4 @@ const mapDispatchToProps = dispatch => {
     };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Books);
+export default connect(mapStateToProps, mapDispatchToProps)(Common);

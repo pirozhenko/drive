@@ -1,14 +1,48 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classes from './Menu.css';
+import Icon from '../Icon';
+import './menu.scss';
 
-const Menu = () => <nav className={classes.Nav}>
-            <NavLink activeClassName={classes.Active} to="/files">Files</NavLink>
-            <NavLink activeClassName={classes.Active} to="/">Photos</NavLink>
-            <NavLink activeClassName={classes.Active} to="/sharing">Sharing</NavLink>
-            <NavLink activeClassName={classes.Active} to="/links">Links</NavLink>
-            <NavLink activeClassName={classes.Active} to="/events">Events</NavLink>
-            <NavLink activeClassName={classes.Active} to="/get-started">Get started</NavLink>
-        </nav>;
+const MENU_LINK = [
+    {
+        to: "/files",
+        title: "Files",
+        icon: "file"
+    },
+    {
+        to: "/",
+        title: "Photos",
+        icon: "image"
+    },
+    {
+        to: "/sharing",
+        title: "Sharing",
+        icon: "sharing"
+    },
+    {
+        to: "/links",
+        title: "Link",
+        icon: "link",
+    },
+    {
+        to: "/events",
+        title: "Events",
+        icon: "time"
+    },
+    {
+        to: "/get-started",
+        title: "Get started",
+        icon: "getStart"
+    }
+]
+
+
+
+const Menu = () => <nav className="nav">
+    {MENU_LINK.map((item, idx) => <NavLink activeClassName="active" to={item.to} key={idx}>
+        <Icon type={item.icon}/>
+        {item.title}
+    </NavLink>)}
+</nav>;
 
 export default Menu;
