@@ -1,4 +1,25 @@
-.section {
-    display: flex;
-    flex-wrap: wrap;
+.totalSize {
+    width: 100%;
+    text-align: center;
+    div:first-child {
+        color: #fff;
+        font-size: 14px;
+    }
+    &Range {
+        height: 15px;
+        width: 50%;
+        margin: 15px auto;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid blue;
+
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: blue;
+        }
+    }
 }

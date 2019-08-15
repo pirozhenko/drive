@@ -5,26 +5,16 @@ import TotalSizeComp from '../../components/TotalSizeComp';
 import * as actions from '../../store/actions/index';
 
 class TotalSizes extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            totalSize: null
-        }
-    }
 
     componentDidMount () {
         this.props.onInitFiles();
-
-        const drive = this.props.files.drive;
-        // this.setState({
-        //     totalSize
-        // });
-        console.log(drive);
     }
 
     render () {
+        const drive = this.props.files.drive;
+        const sum = drive.length > 0 && drive.map(item => +item.size).reduce((a, b) => a + b, 0);
         return (
-            <TotalSizeComp {...this.props}/>
+            <TotalSizeComp sum={sum}/>
         );
     }
 }

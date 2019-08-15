@@ -10,6 +10,10 @@ export const setDrive = ( array ) => {
 
 export const initFiles = () => {
     return dispatch => {
-       dispatch(setDrive(data))
+        new Promise((resolve) => {
+            resolve(data)
+        }).then((data) => {
+            dispatch(setDrive(data));
+        });
     }
 };
